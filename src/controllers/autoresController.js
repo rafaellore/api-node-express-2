@@ -28,8 +28,6 @@ class AutorController {
     }
   };
 
-  // trecho de código suprimido
-
   static cadastrarAutor = async (req, res, next) => {
     try {
       let autor = new autores(req.body);
